@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>glpi-agent</id>
+    <version>1.4.20230619</version>
+    <owners>USM</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>GLPI Agent</title>
+    <authors>GLPI Project, Teclib'</authors>
+    <projectUrl>https://glpi-project.org</projectUrl>
+    <iconUrl>https://glpi-agent.readthedocs.io/en/latest/_static/glpi-agent.png</iconUrl>
+    <copyright>2023</copyright>
+    <licenseUrl>https://github.com/glpi-project/glpi-agent/blob/develop/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/glpi-project/glpi-agent</projectSourceUrl>
+    <docsUrl>https://glpi-agent.readthedocs.io/en/latest/</docsUrl>
+    <mailingListUrl>https://github.com/glpi-project/glpi-agent/discussions</mailingListUrl>
+    <bugTrackerUrl>https://github.com/glpi-project/glpi-agent/issues</bugTrackerUrl>
+    <tags>glpi-agent inventory</tags>
+    <summary>Agent permettant de communiquer avec le serveur GLPI</summary>
+    <description>Nouvel agent GLPI, basé sur l'agent FusionInventory (v2.6), il prend également en charge la communication avec le plug-in FusionInventory pour GLPI</description>
+    <releaseNotes>https://github.com/glpi-project/glpi-agent/releases</releaseNotes>
+    <!-- =============================== -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
