@@ -13,7 +13,7 @@
     <authors>GLPI Project, Teclib'</authors>
     <projectUrl>https://glpi-project.org</projectUrl>
     <iconUrl>https://glpi-agent.readthedocs.io/en/latest/_static/glpi-agent.png</iconUrl>
-    <copyright>2023</copyright>
+    <copyright>Copyright 2011-2023 Teclib Editions</copyright>
     <licenseUrl>https://github.com/glpi-project/glpi-agent/blob/develop/LICENSE</licenseUrl>
     <projectSourceUrl>https://github.com/glpi-project/glpi-agent</projectSourceUrl>
     <docsUrl>https://glpi-agent.readthedocs.io/en/latest/</docsUrl>
