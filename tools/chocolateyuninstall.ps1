@@ -17,9 +17,9 @@ if ($key.Count -eq 1) {
   # Remove folders
   if(Test-Path $($key.InstallLocation)) {
     if(Test-Path "$($key.InstallLocation)logs\glpi-agent.log") {
-      Move-Item -Path "$($key.InstallLocation)logs\glpi-agent.log" -Destination 'C:\Temp\' -Force
+      Move-Item -Path "$($key.InstallLocation)logs\glpi-agent.log" -Destination $env:TEMP -Force -ErrorAction SilentlyContinue
     }
-    Remove-Item -Path $($key.InstallLocation) -Recurse -Force
+    Remove-Item -Path $($key.InstallLocation) -Recurse -Force -ErrorAction SilentlyContinue
   }
 } elseif ($key.Count -eq 0) {
   Write-Warning "$packageName has already been uninstalled by other means.."
