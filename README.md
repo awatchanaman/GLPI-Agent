@@ -1,6 +1,6 @@
 # GLPI Agent
 
-Agent permettant de communiquer avec un serveur GLPI.
+Agent allowing to communicate with a GLPI server.
 
-Il introduit de nouvelles fonctionnalités et un nouveau protocole pour communiquer directement avec un serveur GLPI et sa fonction d'inventaire native.
-Basé sur l'agent FusionInventory (v2.6), il prend également en charge la communication avec le plug-in FusionInventory pour GLPI et restera entièrement compatible dans ses versions 1.x.
+It introduces new features and a new protocol to communicate directly with a GLPI server and its native inventory function.
+Based on the FusionInventory agent (v2.6), it also supports communication with the FusionInventory plug-in for GLPI and will remain fully compatible in its 1.x versions.
