@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>glpi-agent</id>
-    <version>1.4.20230619</version>
+    <version>1.5</version>
     <owners>USM</owners>
     <!-- ============================== -->
 
@@ -20,8 +20,8 @@
     <mailingListUrl>https://github.com/glpi-project/glpi-agent/discussions</mailingListUrl>
     <bugTrackerUrl>https://github.com/glpi-project/glpi-agent/issues</bugTrackerUrl>
     <tags>glpi-agent inventory</tags>
-    <summary>Agent permettant de communiquer avec le serveur GLPI</summary>
-    <description>Nouvel agent GLPI, basé sur l'agent FusionInventory (v2.6), il prend également en charge la communication avec le plug-in FusionInventory pour GLPI</description>
+    <summary>Agent allowing to communicate with the GLPI server</summary>
+    <description>GLPI agent, based on the FusionInventory agent. It also supports communication with the FusionInventory plugin for GLPI.</description>
     <releaseNotes>https://github.com/glpi-project/glpi-agent/releases</releaseNotes>
     <!-- =============================== -->
   </metadata>
